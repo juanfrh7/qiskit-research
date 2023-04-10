@@ -64,10 +64,10 @@ class SideChain(BaseChain):
             InvalidSideChainException: if side chains of length greater than 1 provided.
         """
         side_chain_len = len(side_chain_residue_sequences)
-        if side_chain_len > 1:
-            raise InvalidSideChainException(
-                f"Only side chains of length 1 supported, length {side_chain_len} was given."
-            )
+        #if side_chain_len > 1:
+        #    raise InvalidSideChainException(
+        #        f"Only side chains of length 1 supported, length {side_chain_len} was given."
+        #    )
         if side_chain_len == 0:
             return None
         side_chain = []
