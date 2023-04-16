@@ -14,7 +14,7 @@ from typing import Tuple, Optional
 
 from qiskit.opflow import PauliOp, OperatorBase
 
-from .base_bead import BaseBead
+from .base_bead_copy import BaseBead
 
 
 class SideBead(BaseBead):
